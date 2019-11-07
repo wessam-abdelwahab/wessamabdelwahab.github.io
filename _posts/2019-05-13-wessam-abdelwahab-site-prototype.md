@@ -1,5 +1,5 @@
 ---
-layout: row
+layout: post
 title: "Wessam Abdelwahab"
 date: 2019-05-13
 ---
