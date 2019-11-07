@@ -12,7 +12,8 @@
   }
   
   .header {
-    background-color: #000099;
+    /* background-color: #000099; */
+    background-color: #0099cc;
     /* background-image: url("../images/crater.jpg");  */
     color: #ffffff;
     padding: 15px;
@@ -52,12 +53,21 @@
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
   
+  .aside2 {
+        padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+
   .footer {
     background-color: #0099cc;
     color: #ffffff;
     text-align: center;
     font-size: 12px;
     padding: 15px;
+    bottom: 0;
   }
   
   .row:after {
@@ -133,4 +143,10 @@ ul.posts li {
     list-style: none;
 }
 
-  
+img {
+  border-radius: 50%;
+  align-content: center;
+  width: 250px; 
+  height: 250px;
+  align-content: center;
+}
