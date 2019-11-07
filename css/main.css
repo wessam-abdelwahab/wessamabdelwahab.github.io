@@ -13,8 +13,8 @@
   
   .header {
     /*background-color: #9933cc;*/
-    background-color: #000099;
-    background-image: url ('/images/crater.jpg');
+    /* background-color: #000099; */
+    background-image: url ("/images/crater.jpg");
     color: #ffffff;
     padding: 15px;
     text-align: center;
