@@ -1,251 +1,260 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  html {
-    font-family: "Lucida Sans", sans-serif;
-  }
-   
-  .header {
-    /* background-color: #000099; */
-    background-color: #0099cc;
-    /* background-image: url("../images/crater.jpg");  */
-    color: #ffffff;
-    padding: 15px;
-    text-align: center;
-  }
-  
-  .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+}
 
-  .menu li {
-    padding: 8px;
-    margin-bottom: 7px;
-    background-color: #33b5e5;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    text-align:center;
-  }
-  
-  .menu a {
-    background-color: #0099cc;
-    text-decoration: none;
-  }
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+ 
 
-  .menu li:hover {
-    background-color: #0099cc;
-  }
-  
-  
-  .aside {
-    background-color: #33b5e5;
-    padding: 15px;
-    color: #ffffff;
-    text-align: center;
-    font-size: 14px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  }
-  
-  .aside2 {
-    padding: 15px;
-    font-size: 14px;
-    color: #ffffff;
-    text-align: center;
-    
-  }
-  
+.header {
+  /* background-color: #000099; */
+  background-color: #0099cc;
+  /* background-image: url("../images/crater.jpg");  */
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
 
-  .footer {
-    background-color: #0099cc;
-    color: #ffffff;
-    text-align: center;
-    font-size: 12px;
-    padding: 15px;
-    bottom: 0;
-  }
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  text-align:center;
+}
+
+.menu a {
+  background-color: #0099cc;
+  text-decoration: none;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.aside2 {
+  padding: 15px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
   
-  .row:after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-    width: 100%;
-  }
-  
-  @media only screen and (min-width: 600px) {
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
-  }
-  
-  @media only screen and (min-width: 768px) {
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
-  
-  #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 30px;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: #000099;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 50%;
-    width: 50px;
-  }
-  
-  #myBtn:hover {
-    background-color: #555;
-  }
+}
+
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  bottom: 0;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #000099;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  width: 50px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 
 ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+  margin: 20px auto 40px; 
+  font-size: 1.5em;
 }
 
 ul.posts li {
-    list-style: none;
+  list-style: none;
 }
 
-#img1 {
+
+.profile-img {
   border-radius: 50%;
   align-content: center;
   width: 250px; 
   height: 250px;
-}
+  }
+
+ .cert-img {
+  border-radius: 50%;
+  align-content: center;
+  width: 200px; 
+  height: 200px;
+ }
 
 .fa {
-  padding: 10px;
-  font-size: 20px;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+padding: 10px;
+font-size: 20px;
+width: 40px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 50%;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+/* .fa-facebook {
+background: #3B5998;
+color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
+background: #55ACEE;
+color: white;
+} */
 
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+background: #007bb5;
+color: white;
 }
 
 .fa-github {
-  background: black;
-  color: white;
+background: black;
+color: white;
 }
 
 .fa-arrow-circle-up {
-  background-color: #000099;
-    color: white;
+background-color: #000099;
+  color: white;
 }
 
 fieldset {
-	border: none;
-	margin: 5px 0 ;
+border: none;
+margin: 5px 0 ;
 }
 form li {
-	list-style: none ; 
-	margin: 8px ;
+list-style: none ; 
+margin: 8px ;
 }
 legend {
-	font-weight: bold;
-	color: #5e7c88 ;
+font-weight: bold;
+color: #5e7c88 ;
 }
 
 section {
-	width: 600px; 
-	float: left ;
-	background-color: white ; 
+width: 600px; 
+float: left ;
+background-color: white ; 
 }
 
- .entry-image {
-  /* top: -50%;
-  left: -50%;
-  max-width: 1519px; 
-  max-height: 625px;*/  
-  width: 100%;
-  max-height: 325px;
-  height: auto;
+.entry-image {
+/* top: -50%;
+left: -50%;
+max-width: 1519px; 
+max-height: 625px;*/  
+width: 100%;
+max-height: 325px;
+height: auto;
 } 
 
 
 input[type=text],[type=email] , textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
 }
 
 /* input[type=email] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
 } */
 
 input[type=submit] {
-  background-color:  #55ACEE;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+background-color:  #55ACEE;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #000099;
+background-color: #000099;
 }
