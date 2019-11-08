@@ -205,9 +205,35 @@ section {
 	background-color: white ; 
 }
 
-.entry-image {
-  /* top: -50%;
-  left: -50%; */
+/* .entry-image {
+  top: -50%;
+  left: -50%; 
   width: 100%;
   height: auto;
-}
+} */
+
+.entry-image {
+  position: relative;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  min-height: 400px;
+  overflow: hidden; }
+  .entry-image:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 34, 34, 0.3); }
+  .entry-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 400px; }
