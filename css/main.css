@@ -123,7 +123,8 @@
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 4px;
+    border-radius: 50%;
+    width: 50px;
   }
   
   #myBtn:hover {
@@ -179,4 +180,9 @@ img {
 .fa-github {
   background: black;
   color: white;
+}
+
+.fa-arrow-circle-up {
+  background-color: #000099;
+    color: white;
 }

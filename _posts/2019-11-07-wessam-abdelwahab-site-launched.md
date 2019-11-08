@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Wessam Abdelwahab"
 date: 2019-11-07
 ---
