@@ -206,10 +206,8 @@ section {
 }
 
 .entry-image {
-  position: relative;
   /* top: -50%;
   left: -50%; */
-  width: 400px;
-  height: 200px;
-  overflow: hidden; 
+  width: 100%;
+  height: auto;
 }
