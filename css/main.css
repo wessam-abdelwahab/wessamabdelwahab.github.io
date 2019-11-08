@@ -199,3 +199,9 @@ legend {
 	font-weight: bold;
 	color: #5e7c88 ;
 }
+
+section {
+	width: 600px; 
+	float: left ;
+	background-color: white ; 
+}
