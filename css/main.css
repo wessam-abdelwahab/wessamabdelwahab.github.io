@@ -186,3 +186,16 @@ img {
   background-color: #000099;
     color: white;
 }
+
+fieldset {
+	border: none;
+	margin: 5px 0 ;
+}
+form li {
+	list-style: none ; 
+	margin: 8px ;
+}
+legend {
+	font-weight: bold;
+	color: #5e7c88 ;
+}
