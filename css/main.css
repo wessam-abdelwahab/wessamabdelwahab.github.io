@@ -5,12 +5,7 @@
   html {
     font-family: "Lucida Sans", sans-serif;
   }
-  
-  video {
-    width: 100%;
-    height: auto;
-  }
-  
+   
   .header {
     /* background-color: #000099; */
     background-color: #0099cc;
@@ -25,7 +20,7 @@
     margin: 0;
     padding: 0;
   }
-  
+
   .menu li {
     padding: 8px;
     margin-bottom: 7px;
@@ -35,14 +30,15 @@
     text-align:center;
   }
   
+  .menu a {
+    background-color: #0099cc;
+    text-decoration: none;
+  }
+
   .menu li:hover {
     background-color: #0099cc;
   }
   
-  .menu a {
-    background-color: #0099cc;
-      text-decoration: none;
-  }
   
   .aside {
     background-color: #33b5e5;
@@ -54,10 +50,11 @@
   }
   
   .aside2 {
-        padding: 15px;
+    padding: 15px;
+    font-size: 14px;
     color: #ffffff;
     text-align: center;
-    font-size: 14px;
+    
   }
   
 
@@ -112,7 +109,6 @@
     .col-12 {width: 100%;}
   }
   
-  
   #myBtn {
     display: none;
     position: fixed;
@@ -149,4 +145,38 @@ img {
   width: 250px; 
   height: 250px;
   align-content: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
 }
