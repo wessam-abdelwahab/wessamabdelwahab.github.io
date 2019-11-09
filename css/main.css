@@ -5,7 +5,7 @@
 html {
   font-family: "Lucida Sans", sans-serif;
 }
- 
+
 .header {
   /* background-color: #000099; */
   background-color: #0099cc;
@@ -92,6 +92,7 @@ html {
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -107,6 +108,14 @@ html {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+}
+
+
+@media only screen and (max-width: 375px) {
+  h4 { 
+    font-size: 3vw;
+  }
+
 }
 
 #myBtn {
@@ -144,8 +153,8 @@ ul.posts li {
 .profile-img {
   border-radius: 50%;
   align-content: center;
-  width: 250px; 
-  height: 250px;
+  width: 150; 
+  height: 150px;
   }
 
  .cert-img {
@@ -153,6 +162,7 @@ ul.posts li {
   align-content: center;
   width: 100px; 
   height: 100px;
+  margin-right:5px;
  }
 
  .cert-img:hover {
@@ -244,7 +254,7 @@ border-radius: 4px;
 box-sizing: border-box;
 margin-top: 6px;
 margin-bottom: 16px;
-resize: vertical;
+resize:none;
 }
 
 /* input[type=email] {
@@ -268,4 +278,21 @@ cursor: pointer;
 
 input[type=submit]:hover {
 background-color: #000099;
+}
+
+.containerDiv {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.div1{
+  width: auto;
+  float: left;
+
+}
+
+.div2{
+  width: auto;
+  float: left;
+
 }
