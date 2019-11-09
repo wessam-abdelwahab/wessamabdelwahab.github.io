@@ -2,23 +2,22 @@
 layout: default
 title: Contact
 ---
-<section>
-<!-- <h1>{{ page.title }}</h1> -->
-<form  name="contact"  action="https://formspree.io/mdookoly"  method="POST">
-	<ul>
-		<fieldset>
-		<legend>Message</legend>
-		<li> <label for="email"> Your Email: </label></li> 
-		<li><input type="email" name="email" id="email" placeholder="Your email address..."></li> 
 
-		<li><label> Your Name: </label></li> 
-		<li><input type="text" name="name" id="name" placeholder="Your name..."></li> 
+<h1>{{ page.title }}</h1>
+<form  name="contact" action="https://formspree.io/mdookoly" onsubmit="return validateForm()" method="POST">
+	<ul>			
+		<li><label> Name </label></li> 
+		<li><input type="text" name="name" id="name" placeholder="Your name..." onclick="select()" required/></li> 
+		<li><div id="namemsg"></div></li></BR>
 
-		<li><label for="name"></label> Your Message: </label></li> 
-		<li><textarea name="message" placeholder="Your message..."></textarea></li> 
-		</fieldset>
+		<li> <label for="email"> Email </label></li> 
+		<li><input type="email" name="email" id="email" placeholder="Your email address..." onclick="select()" required/></li> 
+		<li><div id="emailmsg"></div></li></BR>
+
+		<li><label for="name"></label> Message </label></li> 
+		<li><textarea rows="10" name="message" placeholder="Your message..." onclick="select()" required></textarea></li> 
+		<li><div id="textmsg"></div></li></BR>
 
 		<li><input type="submit" value="Send Message"/></li>
 	</ul>
 </form>
-</section>
