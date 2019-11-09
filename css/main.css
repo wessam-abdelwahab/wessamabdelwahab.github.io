@@ -6,13 +6,12 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
  
-
 .header {
   /* background-color: #000099; */
   background-color: #0099cc;
   /* background-image: url("../images/crater.jpg");  */
   color: #ffffff;
-  padding: 15px;
+  padding: 8px;
   text-align: center;
 }
 
@@ -53,7 +52,7 @@ html {
 .aside2 {
   padding: 15px;
   font-size: 14px;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   
 }
@@ -150,11 +149,23 @@ ul.posts li {
   }
 
  .cert-img {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   align-content: center;
-  width: 200px; 
-  height: 200px;
+  width: 100px; 
+  height: 100px;
  }
+
+ .cert-img:hover {
+  opacity: 0.3;
+}
+
+.certimg {
+  align-content: center;
+ }
+
+ .certimg:hover {
+  opacity: 0.3;
+}
 
 .fa {
 padding: 10px;
