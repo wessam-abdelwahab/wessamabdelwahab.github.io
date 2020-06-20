@@ -7,18 +7,3 @@
         <loc>https://wessamabdelwahab.github.io</loc>
     </url>
 </urlset>
-    <!-- {% for post in site.posts %}
-    <url>
-        <loc>https://wessamabdelwahab.github.io{{ post.url | remove: 'index.html' }}</loc>
-    </url>
-    {% endfor %}
-
-    {% for page in site.pages %}
-    {% if page.layout != nil %}
-    {% if page.layout != 'feed' %}
-    <url>
-        <loc>https://wessamabdelwahab.github.io{{ page.url | remove: 'index.html' }}</loc>
-    </url>
-    {% endif %}
-    {% endif %}
-    {% endfor %} -->
