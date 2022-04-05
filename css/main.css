@@ -12,7 +12,8 @@ html {
   /* background-image: url("../images/crater.jpg");  */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/cloud.jpg");
   color: #ffffff;
-  height: 50%;
+  width: auto;
+  max-height: 10%;
   padding: 8px;
   background-position: center;
   background-repeat: no-repeat;
